@@ -55,10 +55,9 @@ def login():
 
                 elif common == "transfer":
                     transfer = int(input("enter number: "))
-                    print(balans - transfer)
                     balans3 = balans1 - transfer
                     balans4 = balans2 - transfer
-                    print(balans3)
+
                     print(balans4)
                 elif common == "delete":
                     return user
