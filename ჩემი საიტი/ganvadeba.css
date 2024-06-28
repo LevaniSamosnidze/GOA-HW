@@ -1,0 +1,21 @@
+#P{
+    text-align: center;
+    background-color: aliceblue;
+    margin: auto;
+    border: 1px solid;
+    color: black; 
+    width: 400px; 
+    height: 500px;
+}
+#pp{
+    text-align: center;
+}
+#qb{
+    background-color: blue; 
+    border-radius: 25px;
+}
+#re{
+    background-color: blue;
+    color: black;
+    border-radius: 25px;
+}

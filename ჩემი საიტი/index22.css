@@ -1,0 +1,20 @@
+#h1{
+    text-align: center;
+    margin-left: auto;
+}
+#bee{
+    margin: auto;
+}
+#na{
+    margin: auto;
+}
+#rr{
+    background-color: blue;
+    color: black;
+    border-radius: 25px;
+    transform: translate(680px);
+}
+#k{
+    margin: auto;
+    transform: translate(510px);
+}

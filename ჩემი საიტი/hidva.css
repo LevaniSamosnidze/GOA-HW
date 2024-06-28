@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+#vv{
+    background-color: aliceblue;
+    margin: auto;
+    border: 1px solid; 
+    width: 420px;
+    height: 450px;
+    text-align: center;
+}
+body{
+    background-color: rgb(198, 225, 228);
+}
+#az{
+    background-color: blue; 
+    color: black; 
+    border-radius: 25px;
+}

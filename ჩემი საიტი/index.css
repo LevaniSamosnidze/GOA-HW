@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color:beige;
+}
+h2{
+    text-align: center;
+}
+
+#i{
+    text-align: center;
+}
+#lol{
+    text-align: right;
+}
+#maragi{
+    color: red;
+}
+
+#ok{
+    text-align: right;
+}
+#ff{
+    text-align: right;
+}
+#kai{
+    text-align: right;
+}
+#pk{
+    text-align: center;
+}
+#hah{
+    border: 8px solid rgb(231, 231, 188);
+     width: 200px;
+     
+}
+#ma{
+    background-color:slategray ;
+    color:rgb(255, 255, 255) ; 
+    border-radius: 25px;
+}
+
+#za{
+    background-color:slategray; color:rgb(255, 255, 255);
+    border-radius: 25px;
+}
+#nana{
+    background-color: rgba(0, 0, 255, 0);
+    border-radius:25px ;
+}
+#mash{
+    border: 1 solid; height: 10px; width: 30px;
+}
+#HH{
+    width: 30px;
+    border-radius: 9px;
+}

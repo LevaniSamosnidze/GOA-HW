@@ -1,0 +1,21 @@
+#i{
+    text-align: center;
+}
+#bc{
+    background-color: aliceblue;
+    text-align: center;
+    border: 1px solid ; 
+    width: 400px; 
+    height: 570px;
+    margin: auto;
+    
+    
+}
+body{
+    background-color: rgb(193, 210, 214);
+}
+#ma{
+    background-color: blue; 
+    color: black; 
+    border-radius: 25px;
+}

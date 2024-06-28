@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(56, 55, 55);
+}
+
+#i{
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+#i{
+    border: 3px solid black; 
+    width: 350px; 
+    height: 400px;
+    margin: auto;
+}
+#xo{
+    background-color: rgb(55, 55, 247); 
+    color: aliceblue; 
+    border-radius: 25px;
+}
+#xo:active{
+    background-color: red;
+}

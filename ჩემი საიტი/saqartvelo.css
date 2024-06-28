@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(235, 242, 143);
+}
+div{
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+}
+#WOW{
+    margin: auto;
+    text-align: center;
+    border: 1px solid ; 
+    width: 400px; 
+    height: 570px;
+}
+#nan{
+    background-color: blue; color: black; border-radius: 25px;
+}
