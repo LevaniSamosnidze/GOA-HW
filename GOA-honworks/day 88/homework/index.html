@@ -37,15 +37,20 @@
         user.addEventListener("click", function(e){
             const comp = ['მაკრატელი','ფურცელი','ჭა'];
             let index = Math.round(Math.random() * comp.length);
-            if (index == 3){
-                index = index - 1
+            while (index === 3){
+                let index1 = Math.round(Math.random() * comp.length);
+                index = index1;
+                console.log(3);
+                if (index != 3){
+                    break;
+                }
             }
             comp_shoos = comp[index];
             comp_result.textContent = comp_shoos;
             if (e.target.id == 'btn1' && comp_shoos == 'მაკრატელი' || e.target.id == 'btn2' && comp_shoos == 'ფურცელი' || e.target.id == 'btn3' && comp_shoos == 'ჭა'){
                 result.textContent = 'ფრე'
             }else if(e.target.id == 'btn1' && comp_shoos == 'ჭა' || e.target.id == 'btn2' && comp_shoos == 'მაკრატელი' || e.target.id == 'btn3' && comp_shoos == 'ფურცელი'){
-                result.textContent = 'წაგე';
+                result.textContent = 'წააგე';
                 comp_count = comp_count + 1;
                 p1.textContent = comp_count;
             }else{
@@ -53,8 +58,10 @@
                 user_count = user_count + 1;
                 p2.textContent = user_count;
             }
-            
-        })
+        });
+        
+        
+        
     </script>
 </body>
 </html>
